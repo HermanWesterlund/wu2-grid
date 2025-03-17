@@ -1,0 +1,12 @@
+body {
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+    background-color: aquamarine;
+    min-width: 80vh;
+    min-height: 80vh;
+}
