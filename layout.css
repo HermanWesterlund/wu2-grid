@@ -1,12 +1,35 @@
 body {
     display: grid;
     place-items: center;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    margin: 0;
+    height: 100vh;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    min-width: 80vh;
+    min-height: 80vh;
 }
 
 .container {
     display: grid;
-    place-items: center;
-    background-color: aquamarine;
+    grid-template-rows: 50px 100px 75px;
+    grid-template-columns: 250px 500px 300px;
+    
     min-width: 80vh;
-    min-height: 80vh;
+    min-height: 50vh;
+}
+
+.items {
+    display: grid;
+    place-items: center;
+    border: solid white 1px;
+    background-color: aquamarine;
 }

@@ -1,0 +1,103 @@
+body {
+    display: grid;
+    place-items: center;
+    padding: 0;
+    margin: 0;
+    font-size: 2rem;
+    margin: 0;
+    height: 100vh;
+    background-color: black;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    min-width: 80vh;
+    min-height: 80vh;
+}
+
+.gridContainer {
+    background-color: orange;
+    padding: 10px;
+    display: grid;
+    border: solid black;
+    grid-template-rows: 100px 180px;
+    grid-template-columns: 260px 260px;
+    min-width: 70vh;
+    min-height: 90vh;
+    @media (max-height: 700px) {
+        grid-template-rows: 80px 160px;
+        grid-template-columns: 220px 220px;
+        min-height: 80vh;
+        min-width: 60vh;
+    }
+}
+
+.gridContainer2 {
+    display: grid;
+    grid-template-rows: 140px 60px;
+    grid-template-columns: 360px 160px;
+    min-width: 80vh;
+    min-height: 40vh;
+
+    @media (max-height: 700px) {
+        grid-template-rows: 100px 20px;
+        grid-template-columns: 320px 120px;
+    }
+}
+.gridContainer3 {
+    display: grid;
+    margin-top: 3px;
+    grid-template-rows: 130px 130px 130px;
+    grid-template-columns: 45px 13px 100px 80px 280px;
+    min-width: 80vh;
+    min-height: 40vh;
+    @media (max-height: 700px) {
+        grid-template-rows: 90px 90px 90px;
+        grid-template-columns: 5px 93px 60px 40px 240px;
+    }
+}
+
+.gridContainer4 {
+    display: grid;
+    margin-top: 3px;
+    grid-template-rows: 280px;
+    grid-template-columns: 180px;
+    min-width: 80vh;
+    min-height: 40vh;
+    @media (max-height: 700px) {
+        grid-template-rows: 240px;
+        grid-template-columns: 140px;
+    }
+}
+
+.innerGridContainer {
+    display: grid;
+    padding: 1px;
+    min-width: 72.5vh;
+    min-height: 10vh;
+}
+
+.gridItems {
+    display: grid;
+    place-items: center;
+    border: solid orange;
+    background-color: whitesmoke;
+}
+
+.gridItems2 {
+    display: grid;
+    place-items: center;
+    border: solid 5px brown;
+    background-color: whitesmoke;
+}
+
+.emptySpace {
+    display: grid;
+    place-items: center;
+    border: solid orange;
+    background-color: orange;
+}
